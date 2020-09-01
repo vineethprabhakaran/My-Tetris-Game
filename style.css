@@ -1,0 +1,80 @@
+body{
+  background-image: url("img/back.png");
+}
+.classic{
+  font-family: URW Chancery L, cursive;
+}
+.container{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.column{
+  margin-left: 30px;
+}
+.grid{
+  width:200px;
+  height: 400px;
+  display: flex;
+  flex-wrap: wrap;
+  /*background-color: #ffeaa7;*/
+  border: 1px solid #ffeaa7
+}
+
+.grid div{
+  width:20px;
+  height:20px;
+}
+
+.tetromino{
+  background-color: blue;
+  outline-style: solid;
+}
+.btndiv{
+  display: flex;
+  flex-wrap: wrap;
+  width:60px;
+  height: 60px;
+  margin-left: 50px;
+  margin-top: 50px;
+}
+.fourth {
+  /* border-color: #f1c40f; /
+  color: #fff;
+  */
+
+  background-position: 100%;
+  background-size: 400%;
+  -webkit-transition: background 300ms ease-in-out;
+  transition: background 300ms ease-in-out;
+}
+.fourth-pause{
+  background-image: -webkit-linear-gradient(45deg, #ff5252 50%, transparent 50%);
+  background-image: linear-gradient(45deg, #ff5252 50%, transparent 50%);
+}
+.fourth-play{
+  background-image: -webkit-linear-gradient(45deg, #218c74 50%, transparent 50%);
+  background-image: linear-gradient(45deg, #218c74 50%, transparent 50%);
+}
+.fourth:hover {
+  background-position: 0;
+}
+
+.mini-grid{
+  width:80px;
+  height: 80px;
+  display: flex;
+  flex-wrap: wrap;
+  /*background-color: #ffeaa7;*/
+  border: 1px solid #ffeaa7
+  margin-left: 50px
+}
+#start-button{
+  border-radius: 8px;
+  width: 50px;
+  height:50px;
+}
+.mini-grid div{
+  width:20px;
+  height:20px;
+}
